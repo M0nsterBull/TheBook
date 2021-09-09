@@ -1,0 +1,259 @@
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+                    /*Specific Items*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+
+.title-page {
+    margin: auto;
+    color: #F6B7BE;
+    max-width: 50%;
+    text-align: center;
+    background-color: #441A23;
+    font-family: 'Graduate', 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+.title-page section {
+    margin: 50px 0;
+}
+
+.title-page header {
+    border-bottom: solid #F6B7BE 1px; 
+}
+
+.title-page a:visited {
+    color: #F6B7BE;
+}
+
+.title-page a {
+    text-decoration: none;
+    color: #F6B7BE;
+}
+
+.title-page footer {
+    border-bottom: solid #F6B7BE 1px;
+}
+
+@media only screen and (max-width:900px) {
+    .title-page {
+        max-width: 100%;
+    }
+}
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+
+.info-page {
+    margin: auto;
+    color: #403C35;
+    max-width: 50%;
+    text-align: center;
+    background-color: #F4EEE2;
+    font-family: 'Graduate', 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+.info-page section {
+    margin: 50px 0;
+}
+
+.info-page a {
+    text-decoration: none;
+    color: #403C35
+}
+
+.info-page a:visited {
+    color: #403C35;
+}
+
+@media only screen and (max-width:900px) {
+    .info-page {
+        max-width: 100%;
+    }
+}
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+
+.normal-page {
+    margin: auto;
+    background-color: #F4EEE2;
+    max-width: 50%;
+    color: #403C35;
+    font-family: 'Graduate', 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+.normal-page section {
+    font-size: 20%;
+    text-align: left;
+    font-family: 'Ledger', serif;
+    font-weight: bold;
+}
+
+.big-letter {
+    font-size: 90px;
+    float: left;
+    line-height: 1;
+    margin-right: .6%;
+}
+
+.normal-page a {
+    text-decoration: none;
+    color: #403C35
+}
+
+.normal-page a:visited {
+    color: #403C35;
+}
+
+@media only screen and (max-width:900px) {
+    .normal-page {
+        max-width: 100%;
+    }
+}
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+                    /*General Items*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+
+
+
+header {
+    border-bottom: solid #403C35 1px;
+    text-decoration: none;
+}
+
+.author {
+    font-size: 20%;
+    margin: 20px 0 0 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.title1 {
+    font-size: 60%;
+}
+
+.title2 {
+    font-size: 20%;
+    font-family: 'Libre Baskerville', serif;
+    margin: auto;
+}
+
+.title3 {
+    font-size: 40%;
+    margin: auto;
+}
+
+.volume {
+    font-size: 30%;
+    margin: 100px 0 0 0;
+}
+
+.imgs {
+    width: 90%;
+    display: block;
+    margin: auto;
+    border: solid #403C35 2px;
+    border-radius: 10px;
+}
+
+.imgs-dark {
+    width: 90%;
+    display: block;
+    margin: auto;
+    border: solid #403C35 2px;
+    border-radius: 10px;
+    filter: saturate(120%);
+    filter: contrast(120%);
+    filter: brightness(80%);
+}
+
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+                    /*Other General Items*/
+/*---------------------------------------------------------*/
+/*---------------------------------------------------------*/
+
+.pag {
+    font-size: 20%;
+    text-align: left;
+}
+
+.reverse {
+    display: inline-block; 
+
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+nav {
+    font-size: 50%;
+}
+
+.decision {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 25%;
+}
+
+.decision a {
+    display: inline-block;
+    width: 80%;
+    padding: 6%;
+    
+    border: 2px solid #403C35;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    text-align: center;
+}
+
+.decision a:hover, .decision a:active {
+    background-color: #403C35;
+    color: #F4EEE2;
+}
+
+@media only screen and (max-width:450px) {
+    .decision a {
+        font-size: 65%;
+    }
+}
+
+footer {
+    font-size: 15%;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: solid #403C35 1px;
+}
+
+
+/* INFO */
+
+/*colores libro
+
+fondo fuera: #232323
+fondo portada: #441A23
+
+*/
+
+/*colores hojas
+
+letras: #403C35
+fondo:  #F4EEE2
+
+fuentes: 
+font-family: 'Graduate', cursive;           (titulos)
+font-family: 'Montserrat', sans-serif;      (normal)
+font-family: 'Libre Baskerville', serif;    (cursiva)
+font-family: 'Ledger', serif;               (texto)
+*/
